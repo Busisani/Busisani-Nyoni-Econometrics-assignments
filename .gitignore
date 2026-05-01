@@ -25,3 +25,8 @@ Thumbs.db
 # Optional: Ignore large figure exports (uncomment if needed)
 # figures/*.png
 # figures/*.jpg
+figures/Box plot for outlier detection.png
+figures/correlation matrix.png
+figures/Distribution of returns.png
+figures/GARCH volatility modelling.png
+requirements.txt
