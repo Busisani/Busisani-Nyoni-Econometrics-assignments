@@ -1,0 +1,27 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Environment / virtual environment files
+.env
+.venv/
+venv/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Ignore CSV data files (data is downloaded via API)
+*.csv
+
+# Optional: Ignore large figure exports (uncomment if needed)
+# figures/*.png
+# figures/*.jpg
