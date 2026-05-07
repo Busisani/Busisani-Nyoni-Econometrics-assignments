@@ -1,25 +1,25 @@
 # Financial Econometrics Project: Volatility Modeling Challenges
 
-## 📌 Overview
+##  Overview
 This project delves into key statistical and econometric challenges encountered in financial time series modeling, specifically using Apple Inc. (AAPL) stock data from 2018–2025. It highlights common issues such as multicollinearity, skewness, outliers, and overfitting, demonstrating their impact and potential mitigation strategies within the context of financial data.
 
-## 🎯 Objective
+##  Objective
 The primary objective is to develop a structured framework for identifying, diagnosing, and mitigating these challenges, culminating in the application of volatility modeling (GARCH) to capture the dynamic nature of financial risk.
 
-## 📊 Topics Covered
+##  Topics Covered
 -   **Multicollinearity**: Analyzing relationships between predictor variables.
 -   **Skewness**: Examining the asymmetry of return distributions.
 -   **Outliers**: Identifying and understanding extreme market events.
 -   **Overfitting**: Assessing model generalization capability.
 -   **Volatility Modeling (GARCH)**: Capturing time-varying volatility clustering.
 
-## 📁 Dataset
+##  Dataset
 -   **Asset**: Apple Inc. (AAPL) stock data.
 -   **Source**: Yahoo Finance.
 -   **Period**: January 1, 2018, to December 31, 2025.
 -   **Data Type**: Log returns are calculated for all analyses to ensure consistency.
 
-## ⚙️ Tools Used
+##  Tools Used
 -   **Python**: Programming language.
 -   **`yfinance`**: For fetching historical stock data.
 -   **`pandas`**: For data manipulation and analysis.
@@ -30,18 +30,18 @@ The primary objective is to develop a structured framework for identifying, diag
 -   **`scikit-learn`**: For machine learning tasks (e.g., train-test split, linear regression).
 -   **`arch`**: For advanced econometric models, specifically GARCH.
 
-## 📈 Key Findings
+##  Key Findings
 -   Financial return series consistently exhibit non-normality, including skewness and significant outliers.
 -   Volatility in financial markets is not constant but demonstrates clustering, necessitating advanced models like GARCH.
 -   Robust statistical techniques and careful model validation are crucial to mitigate the risks associated with multicollinearity, outliers, and overfitting, leading to more reliable financial models.
 -   Ignoring these challenges can lead to biased estimates, poor forecasts, and significant financial losses in practice.
 
-## 🚀 How to Run
+##  How to Run
 1.  **Open Google Colab**: Upload the `.ipynb` notebook file to your Google Drive or open it directly in Colab.
 2.  **Install Libraries**: Ensure all required Python libraries are installed (e.g., by running the `!pip install` cell).
 3.  **Run All Cells**: Execute all cells sequentially to reproduce the analysis, visualizations, and results.
 
-## 📚 References
+##  References
 
 ### Data Source
 *   Yahoo Finance. “Apple Inc. (AAPL) Historical Data.” Yahoo Finance, `https://finance.yahoo.com/quote/AAPL/history/`.
@@ -75,5 +75,5 @@ The primary objective is to develop a structured framework for identifying, diag
 *   Brooks, Chris. *Introductory Econometrics for Finance*. Cambridge University Press, 2014.
 *   Hamilton, James D. *Time Series Analysis*. Princeton University Press, 1994.
 
-## 👨‍🎓 Author
-Busisani Nyoni
+##  Author
+Busisani Nyoni-R2418437
